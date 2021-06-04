@@ -1,2 +1,2 @@
 # ModerationBot
-Bot pour atelier de modération sur discord
+Bot discord conçu pour l'animation d'atelier de modération.
