@@ -3,7 +3,7 @@ Bot discord conçu pour l'animation d'atelier de modération.
 ## Matériel nééssaire au bon fonctionnnement du bot
 - Un serveur discord correctement configuré
 ![Frame 7](https://user-images.githubusercontent.com/85356491/120828148-79705480-c55c-11eb-8ba6-2c94517e821d.png)
-*configuration conseillée : un channel textuel par participant + un channel textuel commun* 
+*configuration conseillée : un channel textuel par participant + un channel textuel commun + un channel de configuration* 
 
 
 - Une base de donnée en entrée et en sortie (JSON)  
@@ -18,8 +18,11 @@ Bot discord conçu pour l'animation d'atelier de modération.
 -Le "ModerationBot" installé sur votre serveur avec tous les droits administrateurs  
 *Le bot doit à minima pouvoir écrire et supprimer des messages dans tous les channels. Il doit également pouvoir réagir à des messages et supprimer des réactions*  
 
+## Structuration d'un atelier
+
 ## Les commande du bot 
-- la commande **start**, une fois écrite dans le channel paraméterage lance l'étape sélectionnée.
+*les commandes doivent être écrite et envoyée dans le channel paramétrage*
+- la commande **start**,lance l'étape sélectionnée.
 - La variable **etapeAtelier** détermine l'étape sélectionnée.  
 `if(etapeAtelier == 1){
 //////////////////// code de la première phase
@@ -29,4 +32,4 @@ Bot discord conçu pour l'animation d'atelier de modération.
 //////////////////// code de la phase 3
 }`  
 A tout moment la commende **atelier1 / aterlier2....** permet de changer la valeur de cette variable et donc de sélectionner une autre étape de l'atelier.
-
+- la commande **end**, cloture l'atelier et assigne à la varible etapeAtelier la valeur "1".
