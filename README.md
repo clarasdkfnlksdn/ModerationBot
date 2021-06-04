@@ -19,12 +19,14 @@ Bot discord conçu pour l'animation d'atelier de modération.
 *Le bot doit à minima pouvoir écrire et supprimer des messages dans tous les channels. Il doit également pouvoir réagir à des messages et supprimer des réactions*  
 
 ## Les commande du bot 
-- La variable atelier permet de connaître l'**etapeAtelier** détermine l'étape en cours.
+- la commande **start**, une fois écrite dans le channel paraméterage lance l'étape sélectionnée.
+- La variable **etapeAtelier** détermine l'étape sélectionnée.  
 `if(etapeAtelier == 1){
 //////////////////// code de la première phase
 }else if(etapeAtelier == 2){
 //////////////////// code de la phase 2
 }else if(etapeAtelier == 3){
-//////////////////// code de la phase 2
-}`
+//////////////////// code de la phase 3
+}`  
+A tout moment la commende **atelier1 / aterlier2....** permet de changer la valeur de cette variable et donc de sélectionner une autre étape de l'atelier.
 
