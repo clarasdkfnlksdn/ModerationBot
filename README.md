@@ -19,14 +19,15 @@ Bot discord conçu pour l'animation d'atelier de modération.
 *Le bot doit à minima pouvoir écrire et supprimer des messages dans tous les channels. Il doit également pouvoir réagir à des messages et supprimer des réactions*  
 
 ## Structure type d'un atelier
-- Phase de découverte
+- Phase de découverte  
+![shcéma-1](https://user-images.githubusercontent.com/85356491/120850826-420fa100-c578-11eb-80e2-27971af7d67d.png)
+ 
 - Modération semi-collective
 - Modération collégiale
 - Modération collective sans concertation
 
 ## Interface de modération
 Chaque commentaire est transmis aux participants de la manière suivante : 
-<img width="746" alt="Capture d’écran 2021-06-03 à 18 26 06" src="https://user-images.githubusercontent.com/85356491/120830037-62326680-c55e-11eb-92bc-b0cd000a3554.png">  
 Ils doivent utiliser une des trois réaction proposées pour transmettre leur décision. Seul ces trois emojis sont pris en compte. Une fois le message traité il est supprimé et remplacé par un autre commentaire. Une fois la liste de commentaire en cache épuisée, le participant reçoit un message de mise en attente.
 
 
