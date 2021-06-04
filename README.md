@@ -21,10 +21,13 @@ Bot discord conçu pour l'animation d'atelier de modération.
 ## Structure type d'un atelier
 - Phase de découverte  
 ![shcéma-1](https://user-images.githubusercontent.com/85356491/120850826-420fa100-c578-11eb-80e2-27971af7d67d.png)
- 
 - Modération semi-collective
+![shcéma-2](https://user-images.githubusercontent.com/85356491/120850916-63708d00-c578-11eb-86a0-be281f88f3a6.png)
 - Modération collégiale
+![shcéma-3](https://user-images.githubusercontent.com/85356491/120851055-931f9500-c578-11eb-9d04-737722dc1111.png)
 - Modération collective sans concertation
+![shcéma-4](https://user-images.githubusercontent.com/85356491/120851141-bb0ef880-c578-11eb-99f5-f9c1f789aeb5.png)
+
 
 ## Interface de modération
 Chaque commentaire est transmis aux participants de la manière suivante : 
