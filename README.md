@@ -24,7 +24,8 @@ Bot discord conçu pour l'animation d'atelier de modération.
 - Modération semi-collective
 ![shcéma-2](https://user-images.githubusercontent.com/85356491/120850916-63708d00-c578-11eb-86a0-be281f88f3a6.png)
 - Modération collégiale
-![shcéma-3](https://user-images.githubusercontent.com/85356491/120851507-3375b980-c579-11eb-8cba-c95670ae7c47.png)
+![shcéma-3](https://user-images.githubusercontent.com/85356491/120851818-a717c680-c579-11eb-9f00-15e6beffa4a0.png)
+
 
 
 - Modération collective sans concertation
